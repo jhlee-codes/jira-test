@@ -1,0 +1,21 @@
+{
+  "name": "jira-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhlee-codes/jira-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhlee-codes/jira-test/issues"
+  },
+  "homepage": "https://github.com/jhlee-codes/jira-test#readme",
+  "description": ""
+}
