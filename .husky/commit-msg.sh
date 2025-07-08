@@ -17,5 +17,3 @@ fi
 
 
 echo "$ISSUE_KEY $COMMIT_MSG" > "$COMMIT_MSG_FILE"
-
-sh .husky/commit-msg.sh "$1"
