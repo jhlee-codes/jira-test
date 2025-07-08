@@ -15,5 +15,5 @@ if [ -z "$ISSUE_KEY" ] || echo "$COMMIT_MSG" | grep -q "$ISSUE_KEY"; then
   exit 0
 fi
 
-# 앞에 이슈 키 붙여서 덮어쓰기
+
 echo "$ISSUE_KEY $COMMIT_MSG" > "$COMMIT_MSG_FILE"
